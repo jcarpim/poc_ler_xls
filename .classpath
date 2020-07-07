@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="LendoXLSX/src"/>
+	<classpathentry kind="lib" path="bibliotecas/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/poi-ooxml-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/poi-ooxml-schemas-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="bibliotecas/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="LendoXLSX/build/classes"/>
+</classpath>
