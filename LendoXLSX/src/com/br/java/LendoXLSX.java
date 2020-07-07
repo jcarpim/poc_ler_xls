@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lendoxlsx;
+package com.br.java;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -31,7 +31,9 @@ public class LendoXLSX {
         FileInputStream fisPlanilha = null;
 
         try {
-            File file = new File("D:\\planilhas\\planilhaDaAula.xlsx");
+        	/*colocar caminho onde se encontra o arquivo*/
+            /*File file = new File("D:\\planilhas\\planilhaExemplo.xlsx");*/
+            File file = new File("C:\\Users\\jessi\\workspace-java\\poc_ler_xls\\planilhas\\planilhaExemplo.xlsx");
             fisPlanilha = new FileInputStream(file);
 
             //cria um workbook = planilha toda com todas as abas
