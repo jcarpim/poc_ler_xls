@@ -32,7 +32,6 @@ public class LendoXLSX {
 
         try {
         	/*colocar caminho onde se encontra o arquivo*/
-            /*File file = new File("D:\\planilhas\\planilhaExemplo.xlsx");*/
             File file = new File("C:\\Users\\jessi\\workspace-java\\poc_ler_xls\\planilhas\\planilhaExemplo.xlsx");
             fisPlanilha = new FileInputStream(file);
 
